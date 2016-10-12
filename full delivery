@@ -1,0 +1,89 @@
+First we will login into Vnc Viewer 
+
+Ex;Thrift_Common full delivery/MAXT_develop
+
+IP :-192.168.9.237:2
+
+Password:-vnc123
+
+in VNC viewer we will goto import-export-mgmt
+
+-> cd import-export-mgmt
+
+Goto Thrift_Common
+
+->cd Thrift_Common
+
+Goto release_mgmt
+
+->cd release_mgmt
+
+see the list directory contents 
+
+-> ls -al
+
+what ever directories present in the release_mgmt remove the all directories
+
+->rm -rf drectories
+
+Now we will create one directory in release_mgmt
+
+-> mkdir 
+
+Now we will go to Repository 
+
+->cd ../Thrift_Common
+
+Now we will see the what ever branches availaleble see once
+
+->git branch
+
+after what ever new changes from a remote Repository into the cuurent branch
+
+->git pull
+
+After we will do export-delivery
+
+->export-delivery ../release_mgmt/1/full.delivery
+
+Here one Question will come
+
+Previous export detected.
+
+Do you want o export only new commits ?[Y/n]
+
+n we wiil type
+
+After we will go to temp_import
+
+-> ls-al
+
+now we will do import-delivery
+
+->import-delivery ../release_mgmt/1/full.delivery
+
+Here it asks 
+
+No local Git repository found,do you want to create one now ? [Y/n]Y
+ 
+Applying delivery
+
+performing full importation
+
+Now we will see brnch
+
+->git branch
+
+Now see gitk & that is added or not see UI
+
+checkout the development branch
+
+->git checkout branch name
+
+that branch properly checkout or not see
+
+->gitk &
+
+after remove .git
+
+->rm -rf * .git*full delivery
