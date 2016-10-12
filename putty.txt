@@ -1,0 +1,42 @@
+any branch remove or add and read and write permission do it 
+
+R   master = @read_access_users_ma5g
+RW  master = @write_access_users_ma5g
+RW+        = @integration_user_ma5g
+
+after we will see 
+
+diff
+
+git status
+
+git commit -a -m " Added Trift_Common"
+
+once again git status
+
+all thing added git push we wiil do
+
+
+
+
+o/p :: ./a.out
+
+vi dell.c 
+
+cc dell.c
+
+
+vi packages.sh
+sh packages.sh
+
+
+ 
+[12:47:35] Mahesh setty: first git clone git hub url
+[12:47:39] Mahesh setty: enter
+[12:47:57] Mahesh setty: after add some files in git repo
+[12:48:16] Mahesh setty: command is git add file name
+[12:48:22] Mahesh setty: next
+[12:48:31] Mahesh setty: git status
+[12:48:47] Mahesh setty: git commit -m "add some files"
+[12:49:01] Mahesh setty: git push origin master
+[12:49:13] Mahesh setty: that total process bro
